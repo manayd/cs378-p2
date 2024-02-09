@@ -82,7 +82,9 @@ const menuItems = [
 function App() {
   return (
     <div>
-      <h1>Menu</h1>
+      <img id="logo" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQN54LMtLyky9MT2M8jUSz3UeqmJ1TutQzLEw&usqp=CAU" alt="" />
+      <p className='headline'>Experience Exquisite Food and Dining</p>
+      <p className='headline'>Possibly the Greatest Japanese Food Ever</p>
       <div className="menu">
       {menuItems.map((menuItem) => (
           <MenuItem
