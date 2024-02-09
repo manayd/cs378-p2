@@ -4,9 +4,11 @@
 */
 
 /* .menu {
-  color: blue;
+  text-align: center;
 } */
-
+h1 {
+  color: red;
+}
 .top-rows {
   text-align: center;
   padding: 5px;
@@ -42,7 +44,7 @@
 
 .food-description {
   color:gray;
-  font-size: 120%;
+  font-size: 100%;
 }
 
 .price {
